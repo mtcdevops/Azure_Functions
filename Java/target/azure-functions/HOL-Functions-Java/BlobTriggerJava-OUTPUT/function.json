@@ -1,0 +1,12 @@
+{
+  "scriptFile" : "../HOL-Functions-Java-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.kms.BlobTriggerJava.run",
+  "bindings" : [ {
+    "type" : "blobTrigger",
+    "direction" : "in",
+    "name" : "content",
+    "path" : "output/{name}",
+    "dataType" : "binary",
+    "connection" : "AzureWebJobsStorage"
+  } ]
+}

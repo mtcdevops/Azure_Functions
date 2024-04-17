@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../HOL-Functions-Java-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.kms.Function.run2",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "GET" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
